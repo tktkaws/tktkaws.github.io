@@ -1,1 +1,125 @@
-hellow world
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>旅館</title>
+    <meta name="description" content="旅館をイメージしたデモサイト" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header id="header">
+      <h1 class="site-title">
+        <a href="#">平塚の旅館</a>
+      </h1>
+      <!-- <h1 class="site-title">
+        <a href="#"><img src="img/logo.svg" alt="創作" /></a>
+      </h1> -->
+      <nav id="nav">
+        <ul>
+          <li><a href="#news">お知らせ</a></li>
+          <li><a href="#products1">施設のご紹介</a></li>
+          <li><a href="#shop">交通案内</a></li>
+        </ul>
+      </nav>
+
+      <div class="onlinestore">
+        <a href="#" target="_blank">ご予約はこちらから</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="news" class="wrapper">
+        <h2 class="section-title">
+          <span class="en">News</span>
+          <span class="ja">お知らせ</span>
+        </h2>
+
+        <dl class="list">
+          <dt>2022.07.01</dt>
+          <dd>事前決済サービスのメンテナンスのお知らせ</dd>
+          <dt>2021.06.01</dt>
+          <dd>事前決済サービスのメンテナンスのお知らせ</dd>
+          <dt>2021.05.01</dt>
+          <dd>緊急事態宣言 延長に伴う営業時間のご案内</dd>
+          <dt>2021.04.01</dt>
+          <dd>藤本総料理長による−料理教室−を開催しました</dd>
+          <dt>2021.03.01</dt>
+          <dd>GoToトラベルキャンペーンについて〜停止中〜</dd>
+        </dl>
+      </section>
+
+      <section id="products1" class="products wrapper">
+        <h2 class="section-title">
+          <span class="ja">フィンランド式サウナ</span>
+          <span class="en">Finland style　Sauna</span>
+        </h2>
+        <div class="img">
+          <img src="img/sauna.jpg" alt="" />
+          <p class="text">セルフロウリュ<br />完全予約制</p>
+        </div>
+      </section>
+
+      <section id="products2" class="products wrapper">
+        <h2 class="section-title">
+          <span class="ja">露天風呂</span>
+          <span class="en">Open-air bath</span>
+        </h2>
+        <div class="img">
+          <img src="img/roten.jpg" alt="" />
+          <p class="text">
+            木のぬくもりと香りを体感<br />無味無臭のアルカリ単純温泉
+          </p>
+        </div>
+      </section>
+
+      <div id="shop">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13020.511680349162!2d139.3504658!3d35.3276448!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x887602e6c365352f!2z5bmz5aGa6aeF!5e0!3m2!1sja!2sjp!4v1658907487678!5m2!1sja!2sjp"
+          width="600"
+          height="450"
+          style="border: 0;"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </main>
+
+    <footer id="footer">
+      <div class="inner">
+        <div class="left">
+          <p>
+            <a href="#" target="_blank">ご予約はこちらから</a>｜<a
+              href="mailto:xxxxx@xxx.xxx.com"
+              >お問い合わせ</a
+            >
+          </p>
+        </div>
+
+        <div class="right">
+          <h1 class="site-title">
+            <a href="#">平塚の旅館</a>
+          </h1>
+          <p class="info">
+            254-0065　神奈川県平塚市×××××<br />
+            電話：<a href="tel:0463-xxxx-xxxx">0463-ＸＸＸＸ-ＸＸＸＸ</a>
+          </p>
+          <ul class="menu">
+            <li><a href="#news">お知らせ</a></li>
+            <li><a href="#products1">施設のご紹介</a></li>
+            <li><a href="#shop">交通案内</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">&copy; tktkaws</p>
+    </footer>
+  </body>
+</html>
